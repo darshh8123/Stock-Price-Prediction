@@ -7,35 +7,44 @@ This project demonstrates how to build and train a Long Short-Term Memory (LSTM)
 ## Objective
 
 -Develop a deep learning model to forecast stock prices using 5 years of historical data.
+
 -Utilize LSTM neural networks to capture temporal dependencies and trends in sequential stock data.
 
 ## Methodology
 1. Data Collection
 
 -Acquired 5 years of historical daily stock prices (e.g., Microsoft MSFT) using the yfinance Python library.
+
 -Focused on daily closing prices for modeling and prediction.
 
 2. Data Preprocessing
 
 -Scaling: Applied MinMaxScaler to normalize data between 0 and 1 to improve training stability.
+
 -Windowing: Created sequences of 60 previous days’ prices to predict the next day’s price.
+
 -Train-Test Split: Divided dataset into 80% training and 20% testing sets to evaluate the model’s predictive performance on unseen data.
 
 3. LSTM Model Architecture
 
 -Input Layer: LSTM layer accepting 60-day price windows.
+
 -Hidden Layers: Two LSTM layers to capture complex temporal patterns, followed by dense layers for feature extraction.
+
 -Output Layer: Single-neuron dense layer for predicting the next day’s stock price.
 
 4. Training
 
 -Model trained on the training set using Mean Squared Error (MSE) loss and an appropriate optimizer.
+
 -Early stopping and checkpoints implemented to prevent overfitting and save the best-performing model.
 
 ## Results
 
 -Predictive Accuracy: Evaluated using Root Mean Squared Error (RMSE), demonstrating that predictions closely align with actual stock prices.
+
 -Visualization: Generated plots comparing predicted vs. actual prices on the test set, showing the model’s ability to follow general trends.
+
 -Successfully captured trends and short-term movements over a 5-year period, making it suitable for practical forecasting.
 
 ## Tools & Technologies
