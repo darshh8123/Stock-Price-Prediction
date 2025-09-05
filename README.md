@@ -64,6 +64,8 @@ This project demonstrates how to build and train a Long Short-Term Memory (LSTM)
 
 -Using 5 years of historical data improves the model’s ability to capture trends and seasonal patterns.
 
+### Colab file link: https://colab.research.google.com/drive/186-T0_itLJ-I94i7IsA7yXTT2ldnxuGa?usp=sharing
+
 <img width="1325" height="711" alt="res" src="https://github.com/user-attachments/assets/0336f1d0-39cc-4ca5-a6a0-dbd1f330c3bf" />
 
 ## Model Predictions Visualization(Insights)
