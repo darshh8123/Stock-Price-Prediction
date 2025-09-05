@@ -59,7 +59,9 @@ This project demonstrates how to build and train a Long Short-Term Memory (LSTM)
 ## Key Takeaways
 
 -LSTMs are highly effective for time-series forecasting due to their memory of previous states.
+
 -Proper preprocessing, including scaling and windowing, is critical for model performance.
+
 -Using 5 years of historical data improves the model’s ability to capture trends and seasonal patterns.
 
 <img width="1325" height="711" alt="res" src="https://github.com/user-attachments/assets/0336f1d0-39cc-4ca5-a6a0-dbd1f330c3bf" />
@@ -67,5 +69,7 @@ This project demonstrates how to build and train a Long Short-Term Memory (LSTM)
 ## Model Predictions Visualization(Insights)
 
 -The plot shows the train dataset (blue), the actual stock prices from the test set (orange), and the model predictions (green).
+
 -The model closely follows the trend of the actual prices, demonstrating its ability to forecast stock movements based on historical data.
+
 -Using 5 years of historical stock prices, the LSTM successfully captures short-term trends and general patterns in stock price fluctuations.
