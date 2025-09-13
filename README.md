@@ -51,9 +51,13 @@ This project demonstrates how to build and train a Long Short-Term Memory (LSTM)
 
 -Python
 -yfinance for data acquisition
+
 -pandas, numpy for data manipulation
+
 -scikit-learn for scaling and preprocessing
+
 -TensorFlow / Keras for building and training the LSTM model
+
 -matplotlib / seaborn for visualization
 
 ## Key Takeaways
